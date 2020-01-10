@@ -54,9 +54,16 @@ sessionStorage.setItem('user', 'Will');
 // Cookie
 document.cookie = "username=John Doe";
 
+===================================================
 
+Audit tag has good information about performance
+E.g. First meaningful paint | First Interactive
+But a lot of the delays on performance, accessibility and best practices are coming from images loading, e.g. not compressed, not optimized
 
+===================================================
 
+In the security tag, if you have the SSL certificate, you won't see
+This page has a non-HTTPS secure origin.
 
 
 
