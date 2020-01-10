@@ -38,7 +38,7 @@ Network tag:
 All: everything
 CSS: css file
 Doc: html file
-XHR: ajax request
+XHR: ajax request. XHR stands for xml http request
 WS:  web socket. e.g. live server if you are using vs code.
 
 
