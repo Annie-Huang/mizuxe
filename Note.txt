@@ -2,3 +2,32 @@ https://www.youtube.com/watch?v=x4q86IjJFag
 https://github.com/Annie-Huang/mizuxe
 
 ===================================================
+console tag...
+$_      last return value
+$0      last html element you have selected
+$1      2nd last html element you have selected.
+$('h1').style.color = 'blue'        << This a bit like jquery.
+
+console.log
+console.error
+console.warn
+console.dir(document);
+console.table([{name:'John', email:'test@test.com', age:33}]);
+
+console.group('Say Hello');
+console.groupEnd('Say Hello');
+
+console.group('Say Hello');
+console.groupEnd('Say Hello');
+
+console.assert(a > b, {"message": "a is not greater than b","a":a,"b":b});
+
+
+
+
+
+
+
+
+
+
