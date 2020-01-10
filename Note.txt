@@ -8,6 +8,8 @@ $0      last html element you have selected
 $1      2nd last html element you have selected.
 $('h1').style.color = 'blue'        << This a bit like jquery.
 
+===================================================
+
 console.log
 console.error
 console.warn
@@ -22,7 +24,13 @@ console.groupEnd('Say Hello');
 
 console.assert(a > b, {"message": "a is not greater than b","a":a,"b":b});
 
+===================================================
 
+How to edit files locally in chrome     << you will need to create a workspace for this.
+Under Sources tag -> Filesystem -> Add folder to workspace
+Select the folder your html file is in so now the folder is linked.
+you can click the html file, edit it in chrome tool, save it and refresh the page.
+When you click save, it will actually save it back into the file.
 
 
 
