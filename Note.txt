@@ -32,9 +32,14 @@ Select the folder your html file is in so now the folder is linked.
 you can click the html file, edit it in chrome tool, save it and refresh the page.
 When you click save, it will actually save it back into the file.
 
+===================================================
 
-
-
+Network tag:
+All: everything
+CSS: css file
+Doc: html file
+XHR: ajax request
+WS:  web socket. e.g. live server if you are using vs code.
 
 
 
