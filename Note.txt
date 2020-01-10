@@ -41,6 +41,24 @@ Doc: html file
 XHR: ajax request. XHR stands for xml http request
 WS:  web socket. e.g. live server if you are using vs code.
 
+===================================================
+
+// Store until you clear it yourself
+localStorage.setItem('name','John');
+localStorage.getItem('name');
+localStorage.clear('name');         << This will clear everything in local storage. Nost just the key 'name';
+
+// Store until you close your page.
+sessionStorage.setItem('user', 'Will');
+
+// Cookie
+document.cookie = "username=John Doe";
+
+
+
+
+
+
 
 
 

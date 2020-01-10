@@ -68,11 +68,15 @@
       xhr.send();
     }
 
-    // // Set localstorage - will stay until delete/clear
-    // localStorage.setItem('name','John');
-    // // Set sessionstorage - will stay until browser close
-    // sessionStorage.setItem('user', 'Will');
-    // // Set cookie
-    // document.cookie = "username=John Doe";
+    // Set localstorage - will stay until delete/clear
+    localStorage.setItem('name','John');
+    console.log(localStorage.getItem('name'));
+    // localStorage.clear('name');
+
+    // Set sessionstorage - will stay until browser close
+    sessionStorage.setItem('car', 'BMW');
+
+    // Set cookie
+    document.cookie = "username=John Doe";
 </script>
 </html>
